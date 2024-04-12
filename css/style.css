@@ -1,0 +1,251 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+    color: #333333;
+}
+.navbar-nav.me-auto{
+    margin-left: auto!important;
+    margin-right: 0px !important;
+}
+.space-left-right{
+    padding: 0px 50px;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+    font-size: 20px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 15px;
+    color: #6B7280;
+}
+.spaceleft-right{
+    padding: 0px 60px;
+}
+.header-buttons li{
+    list-style: none;
+}
+.btn-style{
+    border-radius: 50px;
+}
+a.btn-style{
+    text-decoration: none;
+    list-style: none;
+    font-weight: 700;
+    padding: 15px 20px;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+}
+.btn-style.border-button{
+    border: 1px solid #F15589;
+    color: #F15589;
+    background: #ffffff;
+}
+.btn-style{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f1565d+0,ea5286+100 */
+    background: linear-gradient(to bottom,  #f1565d 0%,#ea5286 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    color: #ffffff;
+}
+.header-buttons{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+.no-border{
+    border: 0px !important;
+}
+.header-buttons .border{
+    margin: 0px 20px;
+}
+.head-top{
+    background-color: #F1565B;
+}
+.head-top p{
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 12px 20px;
+}
+.head-top span{
+    font-weight: 700;
+    margin-left: 20px;
+}
+.banner-section-wrapper{
+    background-image: url("../images/banner-image.jpg");
+    background-size: cover;
+    padding: 150px 0px;
+}
+.white-header-wrapper{
+    background-color: #ffffff;
+}
+.navbar.navbar-expand-md.navbar-dark{
+    padding: 0px;
+}
+.banner-image h1{
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 300;
+}
+.banner-image h1 b{
+    display: block;
+    font-weight: 700;
+}
+.navbar-brand{
+    margin-bottom: -40px;
+}
+.banner-image p{
+    color: #ffffff;
+    font-size: 25px;
+    margin: 40px 0px 60px;
+}
+.arrow-button .btn-style{
+    background: #3B82F6;
+    padding: 20px 40px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.arrow-button span{
+    background: #3B82F6;
+    padding: 20px 30px;
+    border-radius: 100px;
+    margin-left: -10px;
+}
+.thumbnail-style{
+    text-align: center;
+    height: 500px;
+    padding: 95px 0px;
+}
+.bangalore-thumb{
+    background-image: url("../images/banglore.jpg");
+    padding: 95px 0px;
+}
+.thumbnail-style h6{
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 20px 0px 40px;
+}
+.three-thumbnail-section{
+    padding: 150px 0px;
+}
+.goa-anjuna{
+    background-image: url("../images/goa.jpg");
+}
+.first-time{
+    background-image: url("../images/first-time.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.thumbnail-style p {
+    font-size: 25px;
+    color: #ffffff;
+    padding: 0px 20px 40px;
+    margin-bottom: 0px;
+}
+.first-time h6{
+    padding: 0px 20px 10px;
+}
+.book-your-session-section{
+    background-image: url("../images/zigzag.png");
+    background-repeat: no-repeat;
+}
+.book-your-session{
+    background-color: #3B82F6;
+    border-radius: 20px;
+    padding: 60px;
+}
+.book-your-session h3{
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.form-group input[type="email"]{
+    background: transparent;
+    border: 0px;
+    border-radius: 0px;
+    padding: 0px;
+    color: #ffffff;
+    font-size: 20px;
+    border-bottom: 1px solid #ffffff;
+    padding: 18px 0px;
+}
+.form-group input[type="email"]::placeholder{
+    color: #ffffff;
+}
+.choose-location h6{
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.choose-location{
+    margin: 30px 0px;
+}
+.book-your-session label{
+    color: #ffffff;
+    font-size: 18px;
+}
+.book-your-session button{
+    font-size: 18px;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 50px;
+    font-weight: 700;
+    border: 0px;
+    padding: 20px 50px;
+}
+.book-your-session .col-auto.text-center{
+    margin-top: 60px;
+}
+.form-text{
+    margin-top: 50px;
+}
+.form-text h6{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.form-text a{
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+}
+.form-text p{
+    color: #ffffff;
+    font-size: 20px;
+}
+.trending-product-section{
+    padding: 100px 0px;
+}
+.section-title{
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+.trending-product h6{
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.trending-product-section .arrow-button.text-center{
+    margin-top: 60px;
+}   
+.trending-product-img{
+    margin-bottom: 20px;
+}
+.news-box h4{
+    font-size: 24px;
+    font-weight: 600;
+}
+.our-latest-news-section .arrow-button.text-center{
+    margin-top: 60px;
+}
+.small-logo{
+    margin: 100px 0px 40px;
+}
