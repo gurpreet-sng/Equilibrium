@@ -249,3 +249,25 @@ a.btn-style{
 .small-logo{
     margin: 100px 0px 40px;
 }
+.footer-section{
+    background-color: #1E3A8A;
+    padding: 60px 0px;
+}
+.copyright{
+    background-color: #F1565B;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 18px;
+}
+.footer-list li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+    display: block;
+}
+.footer-list li{
+    list-style: none;
+}
