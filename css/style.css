@@ -222,7 +222,7 @@ a.btn-style{
     font-size: 20px;
 }
 .trending-product-section{
-    padding: 100px 0px;
+    padding: 40px 0px 100px;
 }
 .section-title{
     font-size: 60px;
@@ -237,7 +237,7 @@ a.btn-style{
     margin-top: 60px;
 }   
 .trending-product-img{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .news-box h4{
     font-size: 24px;
@@ -251,7 +251,8 @@ a.btn-style{
 }
 .footer-section{
     background-color: #1E3A8A;
-    padding: 60px 0px;
+    padding: 100px 0px 80px;
+    margin-top: 120px;
 }
 .copyright{
     background-color: #F1565B;
@@ -270,4 +271,45 @@ a.btn-style{
 }
 .footer-list li{
     list-style: none;
+}
+.eapps-widget.eapps-widget-show-toolbar a{
+    display: none !important;
+}
+.arrowup a{
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.arrowup span{
+    margin-left: 10px;
+}
+.arrowup{
+    margin-top: 30px;
+}
+.news-box p{
+    color: #ACACAC;
+    font-size: 18px;
+}
+.footer-form{
+    display: flex;
+    margin-bottom: 80px;
+}
+.field-wrapper{
+    width: 265px;
+}
+.field-wrapper input[type="email"]{
+    border-radius: 50px;
+    border: 0px;
+    height: 50px;
+    padding: 10px 20px;
+}
+.footer-form .btn.btn-primary{
+    border-radius: 50px;
+    border: 0px;
+    background-color: #3B82F6;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 35px;
+    margin-left: 20px;
 }
