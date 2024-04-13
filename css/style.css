@@ -322,6 +322,58 @@ a.btn-style{
 .book-your-session input[type="date"]{
     width: 100%;
 }
+.trending-product-img{
+    text-align: center;
+}
+.trending-product h6{
+    text-align: center;
+}
+.banner-section-wrapper.climbfit-banner{
+    background-image: url("../images/climbfit.jpg");
+    background-position: right top;
+}
+.climbfit-text-section-wrapper{
+    padding: 150px 0px;
+    background-image: url("../images/zig2.png");
+    background-size: cover;
+    margin-bottom: 60px;
+}
+.climbfit-text h3{
+    color: #6B7280;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.climbfit-text p{
+    color: #ffffff;
+    line-height: 30px;
+    font-size: 18px;
+}
+.climbfit-section-wrapper{
+    padding: 100px 0px;
+}
+.social-icons ul li{
+    list-style: none;
+    display: inline-block;
+}
+.social-icons ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+}
+.program-structure-text p{
+    color: #6B7280;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.program-structure-text h3{
+    color: #6B7280;
+    font-weight: 700;
+}
+.climbfit-text-section-wrapper.rock-zig{
+    background-image: url("../images/rock-zig.png");
+}
 @media only screen and (max-width:1920px){
 
 }
@@ -451,6 +503,19 @@ a.btn-style{
 }
 @media only screen and (max-width:767px){
 
+    .social-icons ul{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .program-structure-text{
+        margin-top: 60px;
+    }
+    .climbfit-text-section-wrapper{
+        background-color: #000000;
+        padding: 60px 0px;
+        background-image: none;
+        margin-bottom: 0px;
+    }
     .navbar-toggler{
         background-color: #F1565B;
     }
@@ -489,6 +554,10 @@ a.btn-style{
     }
     .small-logo {
         margin: 60px 0px 40px;
+    }
+    .climbfit-section-wrapper {
+        padding: 80px 0px;
+        text-align: center;
     }
 }
 @media only screen and (max-width:565px){
