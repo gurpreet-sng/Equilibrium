@@ -210,12 +210,14 @@ a.btn-style{
     font-size: 30px;
     color: #ffffff;
     font-weight: 400;
+    line-height: 1em;
 }
 .form-text a{
     font-size: 45px;
     color: #ffffff;
     font-weight: 700;
     text-decoration: none;
+    line-height: 1em;
 }
 .form-text p{
     color: #ffffff;
@@ -317,7 +319,9 @@ a.btn-style{
     margin: 0px;
     padding: 0px;
 }
-
+.book-your-session input[type="date"]{
+    width: 100%;
+}
 @media only screen and (max-width:1920px){
 
 }
@@ -346,5 +350,217 @@ a.btn-style{
     }
     .copyright{
         font-size: 16px;
+    }
+}
+@media only screen and (max-width:1199px){
+
+    .navbar-expand-md .navbar-nav .nav-link{
+        font-size: 14px;
+        padding: 10px;
+        text-align: center;
+        line-height: 18px;
+    }
+    a.btn-style{
+        font-size: 14px;
+        line-height: 18px;
+        padding: 10px 10px;
+    }
+    .header-buttons .border{
+        margin: 0px 10px;
+    }
+    .banner-image h1{
+        font-size: 65px;
+    }
+    .banner-image p{
+        font-size: 22px;
+    }
+    .head-top p{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:991px){
+
+    .banner-section-wrapper{
+        padding: 100px 0px;
+    }
+    .three-thumbnail-section{
+        padding: 100px 0px;
+    }
+    .thumbnail-style p{
+        font-size: 20px;
+    }
+    .thumbnail-style h6{
+        font-size: 25px;
+    }
+    .arrow-button .btn-style{
+        padding: 15px 30px;
+    }
+    .arrow-button span{
+        padding: 15px 20px;
+    }
+    .book-your-session{
+        padding: 50px 30px;
+    }
+    .book-your-session h3{
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+    .form-text a{
+        font-size: 30px;
+    }
+    .form-text h6{
+        font-size: 25px;
+    }
+    .form-text p{
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+    .trending-product h6{
+        font-size: 16px;
+    }
+    .trending-product-section {
+        padding: 60px 0px 0px;
+    }
+    .section-title{
+        font-size: 50px;
+    }
+    .our-latest-news-section{
+        padding-top: 60px;
+    }
+    .news-box h4{
+        font-size: 16px;
+    }
+    .news-box p{
+        font-size:14px;
+    }
+    .arrowup a {
+        font-size: 14px;
+    }
+    .footer-list li a {
+        font-size: 14px;
+    }
+    .copyright {
+        font-size: 14px;
+    }
+    .header-buttons-wrapper{
+        display: none;
+    }
+    .navbar-brand{
+        width: 200px;
+    }
+}
+@media only screen and (max-width:767px){
+
+    .navbar-toggler{
+        background-color: #F1565B;
+    }
+    .banner-image h1 {
+        font-size: 45px;
+    }
+    .banner-image p {
+        font-size: 18px;
+    }
+    .arrow-button .btn-style{
+        font-size: 18px;
+    }
+    .thumbnail-style{
+        margin-bottom: 40px;
+    }
+    .three-thumbnail-section {
+        padding: 100px 0px 50px;
+    }
+    .section-title {
+        font-size: 45px;
+    }
+    .trending-product{
+        margin-bottom: 40px;
+    }
+    .trending-product-section .arrow-button.text-center {
+        margin-top: 30px;
+    }
+    .footer-form{
+        margin-bottom: 40px;
+    }
+    .footer-section{
+        padding: 80px 0px 60px;
+    }
+    .footer-section{
+        margin-top: 80px;
+    }
+    .small-logo {
+        margin: 60px 0px 40px;
+    }
+}
+@media only screen and (max-width:565px){
+
+    .navbar-brand{
+        width: 170px;
+    }
+    .banner-image h1 {
+        font-size: 35px;
+    }
+    .banner-image p {
+        font-size: 16px;
+    }
+    .banner-image p br{
+        display: none;
+    }
+    .arrow-button .btn-style {
+        font-size: 16px;
+    }
+    .banner-section-wrapper{
+        padding: 100px 0px 80px;
+    }
+    .three-thumbnail-section {
+        padding: 70px 0px 50px;
+    }
+    .thumbnail-style h6 {
+        font-size: 23px;
+    }
+    .book-your-session h3 {
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+    .book-your-session input[type="date"]{
+        margin-bottom: 30px;
+    }
+    .book-your-session button{
+        padding: 15px 40px;
+        font-size: 16px;
+    }
+    .form-text {
+        margin-top: 30px;
+    }
+    .form-text h6 {
+        font-size: 22px;
+    }
+    .form-text a {
+        font-size: 25px;
+    }
+    .form-text p{
+        font-size: 16px;
+    }
+    .book-your-session {
+        padding: 40px 30px;
+    }
+    .space-left-right{
+        padding: 0px 20px;
+    }
+    .section-title {
+        font-size: 34px;
+    }
+    .our-latest-news-section{
+        padding-top: 60px;
+    }
+    .footer-form {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-form .btn.btn-primary{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .footer-logo{
+        text-align: center;
     }
 }
