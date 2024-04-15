@@ -80,6 +80,9 @@ a.btn-style{
     background-size: cover;
     padding: 150px 0px;
 }
+.banner-section-wrapper.about-banner{
+    background-image: url("../images/aboutbg.jpg");
+}
 .white-header-wrapper{
     background-color: #ffffff;
 }
@@ -337,6 +340,7 @@ a.btn-style{
     background-image: url("../images/zig2.png");
     background-size: cover;
     margin-bottom: 60px;
+    margin-top: -200px;
 }
 .climbfit-text h3{
     color: #6B7280;
@@ -350,7 +354,9 @@ a.btn-style{
     font-size: 18px;
 }
 .climbfit-section-wrapper{
-    padding: 100px 0px;
+    padding: 100px 0px 265px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,fbd4e1+100&0+0,1+100 */
+    background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(251,212,225,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 .social-icons ul li{
     list-style: none;
@@ -373,6 +379,65 @@ a.btn-style{
 }
 .climbfit-text-section-wrapper.rock-zig{
     background-image: url("../images/rock-zig.png");
+}
+.banner-section-wrapper.courses-banner{
+    background-image: url("../images/coursesbg.jpg");
+}
+.climbfit-section-wrapper.eqlogo{
+
+}
+.climbfit-text-section-wrapper.rock-zig.eqlogo{
+    margin-top: 0;
+}
+.climbfit-section-wrapper.eqlogo{
+    padding: 100px 0px 20px;
+}
+.best-way-marquee{
+    margin-top: 20px;
+}
+.best-way-marquee marquee{
+    font-size: 30px;
+    color: #000000;
+    text-transform: uppercase;
+}
+.best-way-marquee marquee i{
+    margin: 0px 10px;
+}
+.title-wrapper{
+    padding-top: 100px;
+}
+.climbfit-text b{
+    font-size: 25px;
+}
+.climbfit-text ul li{
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.climbfit-text-section-wrapper.courses-zig{
+    background-image: url(../images/sports-climbing.png);
+    margin-top: 0px;
+}
+.level2-text p{
+    color: #000000;
+    font-size: 18px;
+    line-height: 32px;
+}
+.level2-text ul li{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.level2-section-wrapper{
+    padding-bottom: 100px;
+}
+.climbfit-section-wrapper.padding-top-100{
+    padding: 100px 0px 0px;
+}
+.padding-top-bottom-100{
+    padding: 100px 0px;
+}
+.client-say-section{
+    padding: 100px 0px;
 }
 @media only screen and (max-width:1920px){
 
@@ -406,6 +471,14 @@ a.btn-style{
 }
 @media only screen and (max-width:1199px){
 
+    .climbfit-text-section-wrapper{
+        background-color: #1a1a1a;
+        margin-top: 0px;
+        padding: 100px 0px;
+    }
+    .climbfit-section-wrapper{
+        padding: 100px 0px 100px;
+    }
     .navbar-expand-md .navbar-nav .nav-link{
         font-size: 14px;
         padding: 10px;
@@ -500,9 +573,43 @@ a.btn-style{
     .navbar-brand{
         width: 200px;
     }
+    .level2-section-wrapper{
+        padding-bottom: 0px;
+    }
 }
 @media only screen and (max-width:767px){
 
+    .copyright{
+        padding: 10px;
+    }
+    .title-wrapper {
+        padding-top: 60px;
+    }
+    .climbfit-text p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .climbfit-text ul li{
+        font-size: 16px;
+    }
+    .level2-text p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .level2-text li{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .best-way-marquee marquee{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .level2-section-wrapper{
+        padding-top: 80px;
+    }
+    .level2-section-wrapper .level2-text{
+        margin-top: 40px;
+    }
     .social-icons ul{
         text-align: center;
         margin-bottom: 40px;
