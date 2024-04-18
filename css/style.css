@@ -434,10 +434,31 @@ a.btn-style{
     padding: 100px 0px 0px;
 }
 .padding-top-bottom-100{
-    padding: 100px 0px;
+    padding: 100px 0px !important;
 }
 .client-say-section{
     padding: 100px 0px;
+}
+.climbfit-text-section-wrapper.core-values-zig.eqlogo{
+    background-image: url("../images/core-values.png");
+    background-position: right top;
+    margin-top: 0px;
+}
+.about-climbing-section .title-wrapper{
+    padding-top: 0px;
+}
+.margin-top-100{
+    margin-top: 100px;
+}
+.level2-section-wrapper.about-climbing-section .arrow-button.text-left{
+    margin-top: 40px;
+}
+.small-title{
+    font-size: 35px;
+    font-weight: 400;
+}
+.level2-section-wrapper.about-climbing-section{
+    padding-bottom: 40px;
 }
 @media only screen and (max-width:1920px){
 
@@ -579,6 +600,9 @@ a.btn-style{
 }
 @media only screen and (max-width:767px){
 
+    .climbfit-section-wrapper.padding-top-100 {
+        padding: 60px 0px 0px;
+    }
     .copyright{
         padding: 10px;
     }
@@ -666,9 +690,27 @@ a.btn-style{
         padding: 80px 0px;
         text-align: center;
     }
+    .margin-top-100 {
+        margin-top: 60px;
+    }
+    .column-reverse-mobile{
+        flex-direction: column-reverse;
+    }
+    .level2-section-wrapper.about-climbing-section {
+        padding-bottom: 0px;
+    }
+    .small-title {
+        font-size: 26px;
+    }
 }
 @media only screen and (max-width:565px){
 
+    .margin-top-100 {
+        margin-top: 40px;
+    }
+    .section-title{
+        margin-bottom: 40px;
+    }
     .navbar-brand{
         width: 170px;
     }
