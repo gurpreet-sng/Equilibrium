@@ -83,6 +83,9 @@ a.btn-style{
 .banner-section-wrapper.about-banner{
     background-image: url("../images/aboutbg.jpg");
 }
+.banner-section-wrapper.first-visit-banner{
+    background-image: url("../images/first-visit-bnn.jpg");
+}
 .white-header-wrapper{
     background-color: #ffffff;
 }
@@ -111,6 +114,7 @@ a.btn-style{
     padding: 20px 40px;
     font-weight: 400;
     font-size: 20px;
+    text-transform: uppercase;
 }
 .arrow-button span{
     background: #3B82F6;
@@ -455,10 +459,32 @@ a.btn-style{
 }
 .small-title{
     font-size: 35px;
-    font-weight: 400;
+    font-weight: 400 !important;
+    color: #000000 !important;
+    text-transform: capitalize;
 }
 .level2-section-wrapper.about-climbing-section{
     padding-bottom: 40px;
+}
+.video-section-wrapper{
+    text-align: center;
+}
+.video-section-wrapper iframe{
+    width: 1140px;
+    height: 538px;
+    margin: auto;
+}
+.climbfit-section-wrapper.were-glad-section{
+    background: transparent;
+}
+.climbfit-section-wrapper.were-glad-section h3{
+    font-size: 48px;
+}
+.level2-section-wrapper.Lets-help-you-section{
+    padding-bottom: 0px;
+}
+.video-section-wrapper{
+
 }
 @media only screen and (max-width:1920px){
 
@@ -496,6 +522,7 @@ a.btn-style{
         background-color: #1a1a1a;
         margin-top: 0px;
         padding: 100px 0px;
+        background-image: none !important;
     }
     .climbfit-section-wrapper{
         padding: 100px 0px 100px;
