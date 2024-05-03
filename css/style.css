@@ -61,10 +61,23 @@ a.btn-style{
 .header-buttons .border{
     margin: 0px 20px;
 }
+.card.card-body {
+    background: transparent;
+    color: #fff;
+    border: 0px;
+}
 .head-top{
     background-color: #F1565B;
 }
 .head-top p{
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 12px 20px;
+    margin: 0;
+}
+.head-top p a{
     text-align: center;
     margin-bottom: 0px;
     font-size: 20px;
@@ -161,6 +174,7 @@ a.btn-style{
 .book-your-session-section{
     background-image: url("../images/zigzag.png");
     background-repeat: no-repeat;
+    background-position: center;
 }
 .book-your-session{
     background-color: #3B82F6;
@@ -263,6 +277,11 @@ a.btn-style{
     padding: 100px 0px 80px;
     margin-top: 120px;
 }
+.footer-section2{
+    background-color: #1E3A8A;
+    padding: 100px 0px 80px;
+    margin-top: 0px;
+}
 .copyright{
     background-color: #F1565B;
     color: #ffffff;
@@ -308,10 +327,11 @@ a.btn-style{
     width: 265px;
 }
 .field-wrapper input[type="email"]{
-    border-radius: 50px;
-    border: 0px;
+    border-radius: 50px !important;
+    border: 0px !important;
     height: 50px;
     padding: 10px 20px;
+    margin: 0;
 }
 .footer-form .btn.btn-primary{
     border-radius: 50px;
@@ -326,9 +346,9 @@ a.btn-style{
     margin: 0px;
     padding: 0px;
 }
-.book-your-session input[type="date"]{
+/* .book-your-session input[type="date"]{
     width: 100%;
-}
+} */
 .trending-product-img{
     text-align: center;
 }
@@ -483,6 +503,178 @@ a.btn-style{
 .level2-section-wrapper.Lets-help-you-section{
     padding-bottom: 0px;
 }
+.secemail{
+    border: 1px solid #ACACAC !important;
+    padding: 3px 15px !important;
+    color: #ACACAC !important;
+
+}
+
+::placeholder{
+    color: #484849 !important;
+    font-size: 16px;
+}
+input , textarea {
+    margin-bottom: 20px;
+    border-radius: 0px !important;
+    border: 1px solid #ACACAC !important;
+}
+.locatineseccont h3{
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.locatineseccont p{
+    font-size: 18px;
+}
+.locatineseccont p a{
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+}
+.locatineseccont{
+    padding-top: 80px !important;
+}
+.secprep{
+  text-align: center;
+}
+.secprep h3{
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 30px;
+    text-transform: capitalize;
+}
+.secprep p{
+    font-size: 18px;
+    color: #6B7280;
+}
+.climbfit-text-section-wrapper3{
+    padding: 280px 0px;
+    background-image: url("../images/zigzag.png");
+    background-size: cover;
+    margin-bottom: 60px;
+    
+}
+ .waiverform-banner2{
+    background-image: url(../images/waiverform-banner.png) !important;
+    background-size: cover;
+    padding: 150px 0px;
+}
+.banner-image22 h1 b {
+    display: block;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+.backbusec{
+     float: left !important;
+}
+.seadtext{
+    font-size: 23px;
+    text-align: center;
+}
+.seadtextp{
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+}
+.secbtnform{
+    padding-top: 40px;
+    text-align: center;
+}
+.secbtnform a{
+    padding: 15px 30px;
+    background: #1a1a1a;
+    color: #fff;
+    text-decoration: none;
+}
+.secpricemain1{
+    border: 1px solid #E8E8E8;
+    background: #F8F8F8;
+    padding-bottom: 40px;
+}
+.secpricemain{
+    border: 1px solid #E8E8E8;
+    background: #F8F8F8;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+}
+.sectittlebox{
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.sectittlebox h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #000000;
+}
+.sectittlebox h4{
+    font-size: 25px;
+    font-weight: 500;
+    color: #000000;
+}
+.sectittlebox h5{
+    font-size: 18px;
+    font-weight: 500;
+    color: #F1565B;
+}
+.modal-body h4 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+}
+.modal-body h4 a:hover{
+    color: #F15589;
+}
+.sectittlebox2{
+    padding: 20px 10px 40px 10px;
+}
+.sectittlebox2 ul li{
+    font-size: 18px;
+    color: #000000;
+    padding-bottom: 10px;
+}
+.sectittlebox22 ul li{
+    font-size: 16px;
+    color: #000000;
+    padding-bottom: 10px;
+}
+.secprivbox{
+    background: #F1565B;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.secprivbox p{
+    color: #fff;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+.arrow-button2 .btn-style {
+    background: #3B82F6;
+    padding: 15px 30px;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.arrow-button2 span {
+    background: #3B82F6;
+    padding: 18px 24px;
+    border-radius: 24px;
+    margin-left: -10px;
+}
+.mainbooksec {
+    color: #fff !important;
+    border: 0px !important;
+    border-bottom: 1px solid #fff !important;
+    padding: 0px !important;
+}
+.mainbooksec::placeholder{
+    color: #fff !important;
+}
+
 .video-section-wrapper{
 
 }
@@ -503,7 +695,7 @@ a.btn-style{
     a.btn-style{
         font-size: 16px;
     }
-    .head-top p{
+    .head-top p {
         font-size: 18px;
     }
     .footer-form .btn.btn-primary{
@@ -626,6 +818,9 @@ a.btn-style{
     }
 }
 @media only screen and (max-width:767px){
+    .navbar-expand-md .navbar-nav .nav-link{
+        text-align: left;
+    }
 
     .climbfit-section-wrapper.padding-top-100 {
         padding: 60px 0px 0px;
@@ -677,7 +872,7 @@ a.btn-style{
     .navbar-toggler{
         background-color: #F1565B;
     }
-    .banner-image h1 {
+    .banner-image h1 , .banner-image22 h1 b {
         font-size: 45px;
     }
     .banner-image p {
