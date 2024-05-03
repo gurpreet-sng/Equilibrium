@@ -652,6 +652,7 @@ input , textarea {
     margin: 0;
     font-size: 18px;
     font-weight: 600;
+    text-transform: uppercase;
 }
 .arrow-button2 .btn-style {
     background: #3B82F6;
@@ -675,10 +676,31 @@ input , textarea {
 .mainbooksec::placeholder{
     color: #fff !important;
 }
-
-.video-section-wrapper{
-
+.section-title-and-description h2.section-title{
+    margin-bottom: 20px;
 }
+.section-title-and-description p{
+    text-align: center;
+}
+.section-title-and-description{
+    margin-bottom: 60px;
+}
+.margin-top-50{
+    margin-top: 50px;
+}
+.margin-bottom-60{
+    margin-bottom: 60px;
+}
+.space-right-left-60{
+    padding: 0px 60px;
+}
+.sectittlebox22 ul{
+    padding-top: 30px;
+}
+.sectittlebox{
+    border-bottom: 1px solid #dddddd;
+}
+
 @media only screen and (max-width:1920px){
 
 }
