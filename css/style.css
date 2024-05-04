@@ -725,7 +725,39 @@ input , textarea {
     background-color: #000000;
     border-radius: 50px;
 }
-
+.timming-and-phone-number{
+    background-color: #F1565B;
+    text-align: center;
+    padding: 50px 0px;
+}
+.timming-and-phone-number p{
+    margin-bottom: 10px;
+}
+.timming-and-phone-number p a{
+    color: #ffffff;
+    font-size: 35px;
+    text-decoration: none;
+    line-height: 35px;
+    margin-top: 30px;
+    display: block;
+}
+.timming-and-phone-number p{
+    color: #ffffff;
+    font-size: 20px;
+}
+.margin-bottom-0{
+    margin-bottom: 0px !important;
+}
+.secpricemain{
+    padding: 0px 0px 30px;
+    margin: 0px 10px;
+}
+.custom-row .col-md-4{
+    width: 31.6%;
+}
+.custom-row .col-md-3{
+    width: 23%;
+}
 @media only screen and (max-width:1920px){
 
 }
@@ -790,6 +822,21 @@ input , textarea {
     }
     .head-top p{
         font-size: 16px;
+    }
+    .custom-row .col-md-4 {
+        width: 31%;
+    }
+    .custom-row .col-md-3{
+        width: 22.7%;
+    }
+    .sectittlebox h2{
+        font-size: 40px;
+    }
+    .sectittlebox h5{
+        font-size: 15px;
+    }
+    .sectittlebox h4{
+        font-size: 20px;
     }
 }
 @media only screen and (max-width:991px){
@@ -864,6 +911,29 @@ input , textarea {
     }
     .level2-section-wrapper{
         padding-bottom: 0px;
+    }
+    .custom-row .col-md-4{
+        width: 30%;
+    }
+    .custom-row .col-md-3{
+        width: 21.7%;
+    }
+    .secprivbox p{
+        font-size: 16px;
+    }
+    .sectittlebox h2 {
+        font-size: 28px;
+    }
+    .sectittlebox h4 {
+        font-size: 18px;
+    }
+    .sectittlebox h5 {
+        font-size: 13px;
+    }
+    .sectittlebox22 ul {
+        padding-top: 30px;
+        padding-left: 25px;
+        padding-right: 10px;
     }
 }
 @media only screen and (max-width:767px){
@@ -973,6 +1043,17 @@ input , textarea {
     .small-title {
         font-size: 26px;
     }
+    .custom-row .col-md-4 {
+        width: 45%;
+        margin-bottom: 30px;
+    }
+    .space-right-left-60 {
+        padding: 0px 20px;
+    }
+    .custom-row .col-md-3{
+        width: 45%;
+        margin-bottom: 30px;
+    }
 }
 @media only screen and (max-width:565px){
 
@@ -1051,5 +1132,15 @@ input , textarea {
     }
     .footer-logo{
         text-align: center;
+    }
+    .custom-row .col-md-3 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .custom-row .col-md-4 {
+        width: 100%;
+    }
+    .secpricemain{
+        margin: 0px 0px;
     }
 }
