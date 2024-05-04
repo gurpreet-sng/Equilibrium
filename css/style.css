@@ -759,6 +759,34 @@ input , textarea {
 .custom-row .col-md-3{
     width: 23%;
 }
+.blog-title-style .section-title{ 
+    margin-bottom: 10px;
+}
+.blog-title-style .date-style{
+    color: #F7AE85;
+}
+.blog-title-style{
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 20px;
+}
+.social-icons .text-align-left{
+    text-align: left;
+    margin-top: 20px;
+}
+.social-icons ul li a {
+    color: #000000;
+    font-size: 20px;
+    margin: 0px 5px;
+}
+.social-icons h5{
+    margin-right: 10px;
+}
+.blog-image{
+    margin-top: 20px;
+}
+.blog-description{
+    margin-top: 40px;
+}
 @media only screen and (max-width:1920px){
 
 }
