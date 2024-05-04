@@ -94,6 +94,15 @@ a.btn-style{
     background-size: cover;
     padding: 150px 0px;
 }
+.banner-section-wrapper.bangalore-banner{
+    background-image: url("../images/goa-banner.jpg");
+}
+.banner-section-wrapper.goa-banner{
+    background-image: url("../images/goa-banner.jpg");
+}
+.banner-section-wrapper.bangalore-banner{
+    background-image: url("../images/banglore-banner.jpg");
+}
 .banner-section-wrapper.about-banner{
     background-image: url("../images/aboutbg.jpg");
 }
@@ -700,6 +709,22 @@ input , textarea {
 .sectittlebox{
     border-bottom: 1px solid #dddddd;
 }
+.login-cart-button ul{
+    margin: 0px;
+    padding: 0px;
+}
+.login-cart-button ul li{
+    list-style: none;
+}
+.login-cart-button ul li a{
+    text-decoration: none;
+    color: #1a1a1a;
+    display: flex;
+}
+.cart-icon span{
+    background-color: #000000;
+    border-radius: 50px;
+}
 
 @media only screen and (max-width:1920px){
 
@@ -711,6 +736,7 @@ input , textarea {
 
 }
 @media only screen and (max-width:1366px){
+
 
     .navbar-expand-md .navbar-nav .nav-link{
         font-size: 18px;
