@@ -10,6 +10,7 @@ body{
     margin-left: auto !important;
     margin-right: 0px !important;
     background-color: #ffffff;
+    align-items: center;
 }
 .space-left-right{
     padding: 0px 50px;
@@ -54,8 +55,8 @@ a.btn-style{
 }
 .header-buttons{
     display: flex;
-    margin: 0px;
     padding: 0px;
+    margin-top: 15px;
 }
 .no-border{
     border: 0px !important;
@@ -721,10 +722,17 @@ input , textarea {
     text-decoration: none;
     color: #1a1a1a;
     display: flex;
+    font-size: 16px;
 }
 .cart-icon span{
     background-color: #000000;
     border-radius: 50px;
+    color: #ffffff;
+    padding: 2px;
+    font-size: 11px;
+    position: relative;
+    top: -10px;
+    left: -10px;
 }
 .timming-and-phone-number{
     background-color: #F1565B;
@@ -787,6 +795,61 @@ input , textarea {
 .blog-description{
     margin-top: 40px;
 }
+.login-cart-button{
+    width: 200px;
+}
+.login-cart-button ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-cart-button ul li{
+    margin: 0px 10px;
+}
+.login-cart-button ul li i{
+    margin-right: 5px;
+}
+.sidebar-style{
+    background-color: #EDEDED;
+    border-radius: 20px;
+    padding: 30px;
+}
+.sidebar-style ul{
+    padding: 0px;
+    margin: 0px;
+}
+.sidebar-style ul li{
+    list-style: none;
+    list-style: none;
+}
+.sidebar-style ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-size: 18px;
+    display: block;
+    padding: 10px 0px;
+    border-bottom: 1px solid #8f8f8f;
+}
+.sidebar-style h5{
+    font-size: 25px;
+    font-weight: 600;
+}
+.product-box .product-img{
+    margin-bottom: 20px;
+}
+.product-box h6{
+    margin-bottom: 10px;
+}
+.product-box .btn.btn-style{
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+.product-box{
+    margin-bottom: 60px;
+}
 @media only screen and (max-width:1920px){
 
 }
@@ -798,9 +861,18 @@ input , textarea {
 }
 @media only screen and (max-width:1366px){
 
-
+    .login-cart-button ul li a{
+        font-size: 14px;
+    }
     .navbar-expand-md .navbar-nav .nav-link{
-        font-size: 18px;
+        font-size: 14px;
+        padding: 15px 10px;
+        line-height: 18px;
+    }
+    .white-header-wrapper .btn-style{
+        padding: 8px 10px;
+        font-size: 14px;
+        line-height: 18px;
     }
     a.btn-style{
         font-size: 16px;
