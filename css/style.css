@@ -1027,6 +1027,9 @@ input , textarea {
 }
 @media only screen and (max-width:991px){
 
+    .margin-top-100.margin-bottom-60.product-page-wrapper{
+        margin-top: 0px;
+    }
     .banner-section-wrapper{
         padding: 100px 0px;
     }
@@ -1123,10 +1126,10 @@ input , textarea {
     }
 }
 @media only screen and (max-width:767px){
+
     .navbar-expand-md .navbar-nav .nav-link{
         text-align: left;
     }
-
     .climbfit-section-wrapper.padding-top-100 {
         padding: 60px 0px 0px;
     }
@@ -1240,9 +1243,25 @@ input , textarea {
         width: 45%;
         margin-bottom: 30px;
     }
+    .shop-detail-description h2 {
+        font-size: 30px;
+    }
+    .shop-detail-description {
+        margin-top: 30px;
+    }
 }
 @media only screen and (max-width:565px){
 
+    .shop-detail-description h2 {
+        font-size: 25px;
+    }
+    .feel-closer-text h3{
+        font-size: 18px;
+    }
+    .feel-closer-text {
+        flex-direction: column;
+        align-items: baseline;
+    }
     .margin-top-100 {
         margin-top: 40px;
     }
