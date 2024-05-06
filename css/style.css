@@ -850,6 +850,91 @@ input , textarea {
 .product-box{
     margin-bottom: 60px;
 }
+.shop-detail-description{
+
+}
+.feel-closer-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.feel-closer-text h3{
+    color: #3B82F6;
+    font-size: 25px;
+    font-weight: 400;
+}
+.stock-title{
+    font-size: 16px;
+}
+.stock-title span{
+    color: #00A32E;
+    font-weight: 700;
+}
+.feel-closer-text{
+    border-bottom: 1px solid #C6C6C6;
+}
+.shop-detail-description p{
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.price-style h2{
+    color: #EE546E;
+    font-size: 40px;
+    font-weight: 700;
+}
+.price-style p{
+    margin: 0px;
+}
+.shop-detail-description h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.select-size-style{
+    margin-top: 30px;
+}
+.select-size-style h6{
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.quantity-field-style{
+    display: flex;
+}
+.QTY-button .btn.btn-style{
+    width: 100%;
+}
+.QTY-field{
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+.QTY-button{
+    width: 100%;
+}
+.advantages-section{
+    
+}
+.list-style h6{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.list-style ul li{
+    margin-bottom: 30px;
+}
+.text-description-style h6{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.text-description-style td{
+    font-size: 16px;
+}
+.text-description-style td {
+    font-size: 15px;
+    padding: 5px 10px;
+}
 @media only screen and (max-width:1920px){
 
 }
