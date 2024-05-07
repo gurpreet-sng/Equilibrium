@@ -1124,6 +1124,9 @@ input , textarea {
         padding-left: 25px;
         padding-right: 10px;
     }
+    .login-cart-button{
+        width: 150px;
+    }
 }
 @media only screen and (max-width:767px){
 
